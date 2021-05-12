@@ -12,7 +12,7 @@ $dados = ""; //Definindo variável $dados
  //Cria um novo objeto da classe
  $comunicacao = new Comunicacao();
  //Define os dados de cabeçalho da requisição
- $cabecalho = array('Content-Type: application/json', 'Authorization: Bearer eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxNTgzMzUifQ.Yxg6madUMemLQ2xQx6Y3MP-hr6uzl6uOh6agRp3TxXyT6OcVEhbhyu5O0wSgKO9UmRQd4j-OJy-LSGUlUNPRacQL__MJZqM2mtDifORc4D1kKZxwehuFNm1EN5KL_UHzCFSMr1jUm1ocmbbvlOKD58nbrtubRR1RatGsnlgG6MX7PnoOqCmarybGhDVnzXAEFaj3n2ynCXp0Or0CuVVKYpHQMWqWWHM52-vrt98_6HCFW-ZbdoNBrgoAAz0aGckhNLxHo8DFXgYA2z2gKFkglqAo0ZDqWSY8tktlCfNg_BP-ZZH7AQA9XTR1RST8EyV4Lieq_555XIQBVgW9mOD0Vw');
+ $cabecalho = array('Content-Type: application/json', 'Authorization: Bearer eyJhbMr1j-UseeE-mail-m1oc55XIQBVgW9mOD0Vw');
  $conteudo = $dados;
   //Define a URL para consumo do serviço
   $url = 'https://valpagtesouro.tesouro.gov.br/api/gru/solicitacao-pagamento';
