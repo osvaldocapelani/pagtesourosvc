@@ -1,6 +1,9 @@
 <?php
  //Faz o include da classe Comunicacao
  require_once 'comunicacao.php';
+ require_once 'tkJWT.php';
+
+
 
 if ($_POST){
 $dados = ""; //Definindo variável $dados
@@ -12,7 +15,7 @@ $dados = ""; //Definindo variável $dados
  //Cria um novo objeto da classe
  $comunicacao = new Comunicacao();
  //Define os dados de cabeçalho da requisição
- $cabecalho = array('Content-Type: application/json', 'Authorization: Bearer eyJhbMr1j-UseeE-mail-m1oc55XIQBVgW9mOD0Vw');
+ $cabecalho = array('Content-Type: application/json', $tk);
  $conteudo = $dados;
   //Define a URL para consumo do serviço
   $url = 'https://valpagtesouro.tesouro.gov.br/api/gru/solicitacao-pagamento';
