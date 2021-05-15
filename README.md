@@ -9,7 +9,7 @@ Para rodar esse aplicação é preciso instalar, além do LAMP ou WAMP, a biblio
 ###### $ curl google.com
 ###### <HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
 ###### <TITLE>301 Moved</TITLE></HEAD><BODY>
-###### <H1>301 Moved</H1>
+###### <H4>301 Moved</H4>
 ###### The document has moved
 ###### <A HREF="http://www.google.com/">here</A>.
 ###### </BODY></HTML>
